@@ -560,6 +560,7 @@ function hmrAccept(bundle, id) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _notiflix = require("notiflix");
 var _notiflixDefault = parcelHelpers.interopDefault(_notiflix);
+//Función que construye la promesa. Si el número aleatorio es > 0.3 se acepta la promesa si es < o = se rechaza
 function createPromise(position, delay) {
     return new Promise((resolve, reject)=>{
         const shouldResolve = Math.random() > 0.3;
@@ -591,6 +592,6 @@ form.addEventListener("submit", (event)=>{
     }, delay + i * step);
 });
 
-},{"notiflix":"5z0Oc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["2uA9t","8tzFL"], "8tzFL", "parcelRequired7c6")
+},{"notiflix":"5z0Oc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["2uA9t","8tzFL"], "8tzFL", "parcelRequire7bc7")
 
 //# sourceMappingURL=03-promises.cd58c9ff.js.map

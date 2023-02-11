@@ -582,6 +582,6 @@ function getRandomHexColor() {
     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-},{}]},["cc1bQ","cYUEh"], "cYUEh", "parcelRequired7c6")
+},{}]},["cc1bQ","cYUEh"], "cYUEh", "parcelRequire7bc7")
 
 //# sourceMappingURL=01-color-switcher.52e3b619.js.map
