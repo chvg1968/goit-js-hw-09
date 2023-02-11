@@ -1,5 +1,5 @@
 import Notiflix from 'notiflix';
-
+//Función que construye la promesa. Si el número aleatorio es > 0.3 se acepta la promesa si es < o = se rechaza
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
     const shouldResolve = Math.random() > 0.3;
